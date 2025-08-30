@@ -19,7 +19,7 @@ return {
 				position = "current",
 				mappings = {
 					["\\"] = "close_window",
-					["p"] = {
+					["p"] = { -- Only works in sidebar mode
 						"toggle_preview",
 						config = {
 							use_float = true,
