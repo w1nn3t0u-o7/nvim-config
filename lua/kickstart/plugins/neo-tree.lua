@@ -16,13 +16,18 @@ return {
 				visible = true,
 			},
 			window = {
+				position = "current",
 				mappings = {
 					["\\"] = "close_window",
-				},
-				preview = {
-					enabled = true,
+					["p"] = {
+						"toggle_preview",
+						config = {
+							use_float = true,
+						},
+					},
 				},
 			},
+			hijack_netrw_behavior = "open_current",
 		},
 		event_handlers = {
 			{
