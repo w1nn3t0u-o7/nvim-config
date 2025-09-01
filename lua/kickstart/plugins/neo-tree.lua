@@ -19,12 +19,6 @@ return {
 				position = "current",
 				mappings = {
 					["\\"] = "close_window",
-					["p"] = { -- Only works in sidebar mode
-						"toggle_preview",
-						config = {
-							use_float = true,
-						},
-					},
 				},
 			},
 			hijack_netrw_behavior = "open_current",
