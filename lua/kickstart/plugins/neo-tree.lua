@@ -19,6 +19,9 @@ return {
 				position = "current",
 				mappings = {
 					["\\"] = "close_window",
+					["<C-f>"] = function()
+						vim.api.nvim_command("silent !tmux neww tmux-sessionizer")
+					end,
 				},
 			},
 			hijack_netrw_behavior = "open_current",
