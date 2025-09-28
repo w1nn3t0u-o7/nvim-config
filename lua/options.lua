@@ -1,5 +1,3 @@
--- [[ Setting options ]]
-
 vim.g.have_nerd_font = true
 
 -- Make line numbers default
@@ -15,7 +13,7 @@ vim.o.showmode = false
 -- Sync clipboard between OS and Neovim.
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 vim.schedule(function()
-	vim.o.clipboard = "unnamedplus"
+    vim.o.clipboard = "unnamedplus"
 end)
 
 -- Enable break indent
@@ -64,4 +62,9 @@ vim.opt.termguicolors = true
 -- Default indentation for empty files
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
+
+vim.opt.smarttab = true
+vim.opt.smartindent = true
+vim.opt.autoindent = true
