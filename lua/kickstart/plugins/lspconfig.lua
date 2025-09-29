@@ -246,8 +246,8 @@ return {
                 "shellcheck",
                 "cpplint",
                 "markdownlint",
-                "pylint",
                 "luacheck",
+                "ruff",
             })
             require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
