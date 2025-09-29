@@ -34,6 +34,7 @@ return {
             cpp = { "clang-format" },
             python = { "isort", "black" },
             bash = { "shfmt" },
+            markdown = { "prettierd" },
         },
     },
 }
