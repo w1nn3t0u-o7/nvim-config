@@ -241,13 +241,12 @@ return {
                 "shfmt",
                 "isort",
                 "black",
-                "prettierd",
+                "prettier",
                 -- Linters
                 "shellcheck",
                 "cpplint",
                 "markdownlint",
                 "luacheck",
-                "ruff",
             })
             require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

@@ -7,7 +7,6 @@ return {
             markdown = { "markdownlint" },
             lua = { "luacheck" },
             bash = { "shellcheck" },
-            python = { "ruff" },
             c = { "cpplint" },
             cpp = { "cpplint" },
         }
