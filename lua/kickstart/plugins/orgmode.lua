@@ -9,6 +9,7 @@ return {
         local Menu = require("org-modern.menu")
 
         require("orgmode").setup({
+            org_startup_indented = true,
             org_agenda_files = {
                 "~/notes/**/*",
                 "~/projects/dotfiles/dotfiles.org",

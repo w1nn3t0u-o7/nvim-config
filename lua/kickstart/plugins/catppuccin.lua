@@ -58,5 +58,7 @@ return {
             },
         })
         vim.cmd.colorscheme("catppuccin")
+        -- Disable highlight when folded (nvim-orgmode)
+        vim.api.nvim_set_hl(0, "Folded", { bg = "none", fg = "none" })
     end,
 }
